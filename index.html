@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BLACK X WIDOW</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="details">
+            <img src="./img/title.png" alt="" class="title_img">
+            <p><span>Natasha Romanoff </span>is Ready to Fight. Are You?</p>
+            <button>Buy Now</button>
+        </div>
+        <img src="./img/back_widow.png" alt="black widow" id="main_pic">
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".card"), {
+            max: 10,
+            speed: 100,
+        });
+    </script>
+</body>
+
+</html>
